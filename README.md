@@ -18,3 +18,16 @@
 - Data Scientist: 
 - ML Engineer: 
 
+### After create the model, 3 things to do.
+1. create API : API wrap the model
+2. Containerized 
+3. Deploy
+
+![alt text](image.png)
+
+### 4 main steps
+1) Create search API with FastAPI : uvicorn main:app --reload
+2) Create Docker image for API
+3) Push image to Docker Hub
+4) Deploy container on AWS ECS
+
