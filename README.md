@@ -31,10 +31,14 @@
 
 1. Create search API with FastAPI : uvicorn main:app --reload
 2. Create Docker image for API : semantic-search-api
+
 - docker build -t semantic-search-api .
 - docker run -d --name semantic-search-container -p 80:80 semantic-search-api
+
 3. Push image to Docker Hub : youtube-semantic-search-app
-- create a repo  
+
+- create a repo
 - docker tag semantic-search-api udaradoc/youtube-semantic-search-app (repo will add to images in docker desktop)
 - docker push udaradoc/youtube-semantic-search-app:latest
-4. Deploy container on AWS ECS: 
+
+4. Deploy container on AWS ECS:
