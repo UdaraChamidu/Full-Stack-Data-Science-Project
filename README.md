@@ -41,4 +41,17 @@
 - docker tag semantic-search-api udaradoc/youtube-semantic-search-app (repo will add to images in docker desktop)
 - docker push udaradoc/youtube-semantic-search-app:latest
 
-4. Deploy container on AWS ECS:
+4. Deploy container on AWS ECS(elastic container service):
+
+- create an account
+- search "ecs-elastic container service"
+- Goto task definition
+- create new task definition
+- give a name = youtube-search-demo, os, RAM, task role = none
+- fill container details(below part of above..)
+- give a name=youtube-search-container-demo, image url from docker hub=udaradoc/youtube-semantic-search-app:latest, other options if needed.
+- create
+
+- goto culters
+- create new cluster = youtube-search-cluster-demo. (there weresome errors while creating clusters. but however i fixed it.)
+- inside cluster, create a service.(fill parts in "create service", select "launch type", create)
