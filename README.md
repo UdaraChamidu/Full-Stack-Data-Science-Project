@@ -69,7 +69,13 @@
 - go to  "Network configuration"
 - go to "security group"
 - then it opens the VPC dashboard.
-- Edit inbound rules
-- now can add ips..
+- Edit inbound rules (or can add new rule.)
+- sample rule given by chatgpt. for this, ithink we should consider about port and ... in the dockerfile.
+
+```
+Type: Custom TCP
+Port: 8501
+Source: 0.0.0.0/0   (for testing, later restrict to your IP)
+```
 
 - video watched fully. but final parts not understood and app was not working...
