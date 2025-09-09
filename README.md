@@ -55,3 +55,4 @@
 - goto culters
 - create new cluster = youtube-search-cluster-demo. (there weresome errors while creating clusters. but however i fixed it.)
 - inside cluster, create a service.(fill parts in "create service", select "launch type", create)
+- onece it failed wile creating, created a service again.
