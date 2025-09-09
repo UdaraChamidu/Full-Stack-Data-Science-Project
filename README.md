@@ -57,4 +57,19 @@
 - goto culters
 - create new cluster = youtube-search-cluster-demo. (there weresome errors while creating clusters. but however i fixed it.)
 - inside cluster, create a service.(fill parts in "create service", select "launch type", create)
-- onece it failed wile creating, created a service again.
+- onece it failed while creating, created a service again.
+- then after create it, go to tasks. go to the corresponding task.
+- check the public address.
+- try it...
+
+---
+
+- goto prrevious location (task)
+- then goto "cofiguration and networking"
+- go to  "Network configuration"
+- go to "security group"
+- then it opens the VPC dashboard.
+- Edit inbound rules
+- now can add ips..
+
+- video watched fully. but final parts not understood and app was not working...
