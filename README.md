@@ -47,10 +47,12 @@
 - search "ecs-elastic container service"
 - Goto task definition
 - create new task definition
-- give a name = youtube-search-demo, os, RAM, task role = none
+- give a name = youtube-search-demo, os="linux...", RAM, task role = none
 - fill container details(below part of above..)
 - give a name=youtube-search-container-demo, image url from docker hub=udaradoc/youtube-semantic-search-app:latest, other options if needed.
 - create
+
+---
 
 - goto culters
 - create new cluster = youtube-search-cluster-demo. (there weresome errors while creating clusters. but however i fixed it.)
