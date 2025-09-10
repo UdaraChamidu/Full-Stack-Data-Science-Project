@@ -41,6 +41,15 @@
 - docker tag semantic-search-api udaradoc/youtube-semantic-search-app (repo will add to images in docker desktop)
 - docker push udaradoc/youtube-semantic-search-app:latest
 
+## if previously docker image built, 
+
+- - do
+```
+docker stop video-chatty-container
+docker rm video-chatty-container
+```
+
+
 4. Deploy container on AWS ECS(elastic container service):
 
 - create an account
